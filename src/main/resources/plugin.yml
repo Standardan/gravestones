@@ -1,0 +1,19 @@
+name: GraveStones
+version: '${project.version}'
+main: io.github.standardan.gravestones.GraveStonesPlugin
+api-version: '1.21'
+description: Death drops go into a protected grave with a floating label, using Display and Interaction entities.
+author: Standardan
+
+commands:
+  graves:
+    description: List your graves, or reload (admin).
+    usage: /graves [reload]
+
+permissions:
+  gravestones.bypass:
+    description: Loot any grave, ignoring owner protection.
+    default: op
+  gravestones.admin:
+    description: Reload GraveStones.
+    default: op

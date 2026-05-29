@@ -1,0 +1,9 @@
+# GraveStones configuration.
+
+# After a player dies, only the owner can loot their grave for this many seconds.
+# After that, anyone can. 0 = no protection (anyone can loot immediately).
+protection-seconds: 60
+
+# Grave disappears (its items drop to the ground) this many seconds after death.
+# 0 = graves never expire and wait forever for their owner.
+expire-seconds: 0
